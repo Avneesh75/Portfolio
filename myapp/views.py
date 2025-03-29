@@ -5,7 +5,7 @@ from .models import Contact
 
 # Create your views here.
 def index(request):
-    return render(request,'index.html')
+    return render(request,'myapp/index.html')
 
 def contact(request):
     print(request.method)
